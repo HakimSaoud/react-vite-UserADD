@@ -1,0 +1,92 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #153448;
+}
+
+.form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #3C5B6F;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.form:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form input[type="text"]:focus,
+.form input[type="number"]:focus,
+.form input[type="password"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.form button {
+  background-color: #c9bba6;
+  color: #123248;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: solid 1px white;
+}
+
+.form button:hover {
+  background-color: #948979;
+  color: #3C5B6F;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.form p {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 0.8rem; /* Adjust font size as needed */
+  padding-left: 5px; /* Add left padding for better alignment with input fields */
+  display: block; /* Ensure the error message occupies a new line */
+}
+
+
+.card li {
+  list-style: none;
+  margin-bottom: 5px;
+  color: #333;
+}
